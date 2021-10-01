@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="amirisback.jurnal3.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/id_edt_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
+        <EditText
+            android:id="@+id/id_edt_praktikum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Praktikum"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/id_edt_ass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Assesment 1"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/id_edt_ass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nilai Assesment 2"
+            android:inputType="number"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Absensi >= 75%?"/>
+            <RadioGroup
+                android:id="@+id/id_radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/id_radioYa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YA"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:onClick="RadioClik"/>
+                <RadioButton
+                    android:id="@+id/id_radioTidak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIDAK"
+                    android:onClick="RadioClik"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HITUNG NILAI AKHIR"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:background="#FF4081"
+                android:onClick="hitung"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESET"
+                android:layout_marginLeft="24dp"
+                android:padding="10dp"
+                android:textColor="#FFFFFF"
+                android:background="#FF4081"
+                android:onClick="reset"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/id_txt_nilaiAkhir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nilai Akhir : 90"
+                android:textSize="34sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <ImageView
+                    android:onClick="mail"
+                    android:id="@+id/id_img_emoticon"
+                    android:layout_width="112sp"
+                    android:layout_height="112sp"
+                    android:src="@drawable/mood" />
+                <TextView
+                    android:id="@+id/id_txt_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:textColor="#3F51B5"
+                    android:onClick="mail"
+                    android:textSize="112sp"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/id_txt_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klik emoticon untuk membagikan nilai."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

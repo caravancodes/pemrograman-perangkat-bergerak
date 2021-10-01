@@ -1,0 +1,20 @@
+6706160014 Muhammad Faisal Amir
+6706160065 Bryan Rafsanzani
+6706162062 Muh. Ikhsan Ramadhan
+
+D3IF-40-02
+
+APLIKASI JAGO SHOLAT 
+KELOMPOK DUGLEGIR
+
+LINK GITHUB : 
+----------------------------------------------------------------------------------------
+https://github.com/D3IF-Cool/40-mobpro-4002-jago-sholat
+----------------------------------------------------------------------------------------
+
+PROGRESS TUBES MOBPRO
+1. Bug Fixed Image kebesaran menggunakan library picasso
+2. Refactoring code, merapihkan code menggunakan bussiness logic MVP (Model View Presenter)
+3. Membuat Catatan Custom Dialog (XML)
+4. Masih Proses menggunakan Catatan Custom Dialog (JAVA)
+

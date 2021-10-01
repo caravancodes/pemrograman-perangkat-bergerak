@@ -1,0 +1,13 @@
+Projection = by colomn
+Select * from table
+
+selection = rows
+ditambahin arguments
+misalkan select * from table where
+
+
+Cursor cur = db.rawQuery("SELECT SUM(myColumn) FROM myTable", null);
+if(cur.moveToFirst())
+{
+    return cur.getInt(0);
+}

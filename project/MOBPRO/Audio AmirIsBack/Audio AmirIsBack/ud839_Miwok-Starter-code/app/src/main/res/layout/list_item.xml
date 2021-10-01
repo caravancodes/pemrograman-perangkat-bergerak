@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Frogobox.Inc
+    ========================================
+    CREATED BY MUHAMMAD FAISAL AMIR
+    COPYRIGHT 2018 - ALL RIGHT RESERVED
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/tan_background">
+
+    <ImageView
+        android:id="@+id/gmbar"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:id="@+id/lineText"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:background="@color/category_numbers">
+
+        <TextView
+            android:id="@+id/textView_miwok"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            tools:text="luti"
+            android:textStyle="bold"/>
+        <TextView
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:gravity="top"
+            android:id="@+id/textView_english"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:text="one"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

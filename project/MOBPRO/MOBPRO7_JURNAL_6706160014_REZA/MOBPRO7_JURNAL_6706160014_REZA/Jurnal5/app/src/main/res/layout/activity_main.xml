@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list_menu"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="id.frogobox.amirisback.jurnal5.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/CategoryStyle"
+        android:background="@color/category_ternak"
+        android:text="@string/category_ternak" />
+
+    <TextView
+        android:id="@+id/family"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hutan"
+        android:text="@string/category_hutan" />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/CategoryStyle"
+        android:background="@color/category_langka"
+        android:text="@string/category_langka" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/CategoryStyle"
+        android:background="@color/category_laut"
+        android:text="@string/category_laut" />
+
+
+
+</LinearLayout>

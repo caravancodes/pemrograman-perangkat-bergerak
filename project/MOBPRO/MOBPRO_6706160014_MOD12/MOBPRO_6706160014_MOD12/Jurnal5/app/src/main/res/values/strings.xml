@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">6706160014 - M. Faisal Amir</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_ternak">Ternak</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_laut">Laut</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_langka">Langka</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_hutan">Hutan</string>
+</resources>

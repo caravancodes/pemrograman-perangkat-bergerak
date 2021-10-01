@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.amirisback.frogobox.jurnal4.MainActivity">
+
+<!-- Menggunakan Text View
+    <TextView
+        android:id="@+id/ternak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ternak"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#d9763c"/>
+    <TextView
+        android:id="@+id/hutan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hutan"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#395839"/>
+    <TextView
+        android:id="@+id/laut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laut"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#1f5a79"/>
+    <TextView
+        android:id="@+id/langka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Langka"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:background="#a31782"/>
+-->
+    <ListView
+        android:id="@+id/Menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
